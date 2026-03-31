@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=36&pause=99999&color=0F172A&center=true&vCenter=true&width=600&height=80&lines=M.V.M+Eswar+Chandra" alt="name" />
+<img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=36&pause=99999&color=FFFFFF&center=true&vCenter=true&width=600&height=80&lines=M.V.M+Eswar+Chandra" alt="name" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&pause=99999&color=64748B&center=true&vCenter=true&width=600&height=30&lines=AI+Engineer+%E2%80%94+RAG+%2F+LLMs+%2F+Vector+Search+%2F+Full-Stack" alt="title" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&pause=99999&color=94A3B8&center=true&vCenter=true&width=600&height=30&lines=AI+Engineer+%E2%80%94+RAG+%2F+LLMs+%2F+Vector+Search+%2F+Full-Stack" alt="title" />
 
 <br/>
 
@@ -96,13 +96,13 @@ Full-stack management platform. Next.js with SSR, Supabase, optimized PostgreSQL
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mec-256&show_icons=true&hide_border=false&border_color=e2e8f0&bg_color=f8fafc&title_color=0f172a&icon_color=0f172a&text_color=475569&hide=stars&ring_color=0f172a" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mec-256&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=94a3b8&text_color=94a3b8&hide=stars" />
 &nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mec-256&layout=compact&hide_border=false&border_color=e2e8f0&bg_color=f8fafc&title_color=0f172a&text_color=475569&langs_count=6" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mec-256&layout=compact&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=94a3b8&langs_count=6" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mec-256&hide_border=false&border=e2e8f0&background=f8fafc&ring=0f172a&fire=0f172a&currStreakLabel=0f172a&sideLabels=475569&dates=94a3b8&stroke=e2e8f0&currStreakNum=0f172a&sideNums=0f172a" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mec-256&hide_border=true&background=0d1117&ring=ffffff&fire=94a3b8&currStreakLabel=ffffff&sideLabels=94a3b8&dates=64748b&currStreakNum=ffffff&sideNums=ffffff" height="165" />
 
 </div>
 
