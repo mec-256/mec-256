@@ -54,7 +54,7 @@ Full-stack RAG system for semantic search across uploaded PDFs and text. The int
 
 <br/>
 
-### RAG Assistant &nbsp; [↗ Live](https://github.com/mec-256)
+### RAG Assistant &nbsp; [↗ Live](https://kvy8ujhh46wzkqectngxpj.streamlit.app/)
 
 An earlier, leaner RAG chatbot — this is where I worked out the chunking strategy and embedding pipeline that I later improved in InsightLayer. OpenAI API + ChromaDB. Retrieval precision up 35% after iterations on the ingestion pipeline.
 
@@ -62,7 +62,7 @@ An earlier, leaner RAG chatbot — this is where I worked out the chunking strat
 
 <br/>
 
-### Student Portal &nbsp; [↗ Live](https://github.com/mec-256)
+### Student Portal &nbsp; [↗ Live](https://school-website-kaj4.vercel.app/)
 
 Full-stack management platform. Next.js with SSR, Supabase, optimized PostgreSQL queries (20% response time reduction). I led the 4-person dev team — sprint planning, architecture decisions, code reviews.
 
