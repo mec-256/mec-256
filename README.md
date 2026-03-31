@@ -1,51 +1,115 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=6B7280&center=true&vCenter=true&width=435&lines=RAG+%2F+LLMs+%2F+Vector+Search+%2F+FastAPI" alt="sub" />
-  <h1>Eswar Chandra</h1>
-  <p>Building AI systems that actually retrieve the right thing.</p>
 
-  <a href="mailto:eswarchandra.016@gmail.com">eswarchandra.016@gmail.com</a> &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/eswar-mamidi">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://github.com/mec-256">GitHub</a>
+<img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=36&pause=99999&color=0F172A&center=true&vCenter=true&width=600&height=80&lines=M.V.M+Eswar+Chandra" alt="name" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&pause=99999&color=64748B&center=true&vCenter=true&width=600&height=30&lines=AI+Engineer+%E2%80%94+RAG+%2F+LLMs+%2F+Vector+Search+%2F+Full-Stack" alt="title" />
+
+<br/>
+
+[![](https://img.shields.io/badge/LinkedIn-0f172a?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/eswar-mamidi)
+[![](https://img.shields.io/badge/Email-0f172a?style=flat&logo=gmail&logoColor=white)](mailto:eswarchandra.016@gmail.com)
+[![](https://img.shields.io/badge/GitHub-0f172a?style=flat&logo=github&logoColor=white)](https://github.com/mec-256)
+![](https://komarev.com/ghpvc/?username=mec-256&style=flat&color=0f172a&label=profile+views)
+
 </div>
 
----
-
-I'm a CS undergrad at Mahindra University (graduating 2027) who got deep into LLMs and RAG pipelines early. Most of my work sits at the intersection of information retrieval and language models — getting embeddings right, hybrid search, re-rankers, the stuff that actually makes RAG work in production rather than in demos.
-
-Won 1st place at Shellshock CTF (₹30,000, 200+ teams) on the side. Also lead a small dev team of 4.
+<br/>
 
 ---
 
-### What I'm good at
+I build things with LLMs that are meant to ship — not just demo. Most of my focus right now is on **retrieval-augmented generation**: getting hybrid search right, tuning chunking strategies, cross-encoder re-ranking, the parts of the pipeline that actually determine whether your RAG system is useful or frustrating.
 
-**AI / Retrieval**  
-`LangChain` `RAG` `OpenAI API` `Groq` `Llama 3.3 70B` `pgvector` `ChromaDB` `BM25` `Cross-encoder re-ranking` `Prompt Engineering` `Embeddings`
-
-**Backend**  
-`Python` `FastAPI` `PostgreSQL` `Supabase` `JWT / RBAC` `REST APIs` `Docker`
-
-**Frontend**  
-`React` `Next.js` `TypeScript` `Vercel`
+Currently a CS undergrad at Mahindra University (2027). I got into AI engineering before it was the obvious move, and I've been building production-grade systems since. Outside of AI — I placed **1st at Shellshock CTF out of 200+ teams**, which is a different kind of problem-solving, but the debugging instinct is the same.
 
 ---
 
-### Projects
+<br/>
 
-**[InsightLayer](https://github.com/mec-256)** — document Q&A over PDFs and text files using a RAG pipeline with hybrid search (vector + BM25) and cross-encoder re-ranking. Improved retrieval accuracy by 35% over naive vector search. Built with FastAPI, LangChain, pgvector, Groq (Llama 3.3 70B). Has JWT auth, multi-tenant document isolation, and a dark UI with drag-and-drop upload.
+## ` RAG & LLM Stack `
 
-**[RAG Assistant](https://github.com/mec-256)** — earlier version, simpler stack (OpenAI + ChromaDB). Where I worked out chunking strategy and embedding pipeline before moving to the hybrid approach in InsightLayer.
+The tools I reach for when building retrieval and generation pipelines:
 
-**[Student Management Portal](https://github.com/mec-256)** — full-stack Next.js app with SSR, Supabase backend, optimized PostgreSQL schemas (cut response times by 20%). Led the team of 4, handled architecture decisions and code reviews.
+| Layer | Tools |
+|---|---|
+| **Orchestration** | LangChain · Prompt Engineering |
+| **LLMs** | Llama 3.3 70B · OpenAI API · Groq API |
+| **Retrieval** | pgvector · ChromaDB · BM25 · Cross-encoder re-ranking |
+| **Embeddings** | Semantic Search · Dense + Sparse hybrid |
+| **Backend** | FastAPI · PostgreSQL · Supabase · Docker · JWT/RBAC |
+| **Frontend** | React · Next.js · TypeScript · Vercel |
+
+<br/>
 
 ---
 
-### Stats
+## ` Work `
+
+<br/>
+
+### InsightLayer &nbsp;—&nbsp; AI Document Q&A &nbsp; [↗ GitHub](https://github.com/mec-256) &nbsp; [↗ Live](https://github.com/mec-256)
+
+Full-stack RAG system for semantic search across uploaded PDFs and text. The interesting engineering was moving beyond naive cosine similarity — I implemented **hybrid search** (vector + BM25) with **cross-encoder re-ranking**, which pushed retrieval accuracy up 35%. The model layer runs Llama 3.3 70B through Groq for low-latency responses with source citations. Multi-tenant, JWT-authenticated, built to be production-ready from the start.
+
+`Python` `FastAPI` `LangChain` `pgvector` `PostgreSQL` `Groq` `Llama 3.3`
+
+<br/>
+
+### RAG Assistant &nbsp; [↗ Live](https://github.com/mec-256)
+
+An earlier, leaner RAG chatbot — this is where I worked out the chunking strategy and embedding pipeline that I later improved in InsightLayer. OpenAI API + ChromaDB. Retrieval precision up 35% after iterations on the ingestion pipeline.
+
+`Python` `OpenAI API` `ChromaDB`
+
+<br/>
+
+### Student Portal &nbsp; [↗ Live](https://github.com/mec-256)
+
+Full-stack management platform. Next.js with SSR, Supabase, optimized PostgreSQL queries (20% response time reduction). I led the 4-person dev team — sprint planning, architecture decisions, code reviews.
+
+`Next.js` `React` `Supabase` `PostgreSQL` `Vercel`
+
+<br/>
+
+---
+
+## ` Highlights `
+
+<br/>
+
+> **🥇 Shellshock CTF — 1st Place** &nbsp;·&nbsp; Nov 2025
+> 
+> 200+ teams. Won ₹30,000. Applied reverse engineering, binary exploitation, and debugging under pressure. One of those experiences that changes how you think about systems.
+
+> **👥 Engineering Team Lead** &nbsp;·&nbsp; Jul 2025
+> 
+> Led a team of 4 devs. Owned sprint planning, technical architecture, and code review process.
+
+> **🎓 Mahindra University** &nbsp;·&nbsp; CGPA 8.0 / 10 &nbsp;·&nbsp; Expected 2027
+
+<br/>
+
+---
+
+## ` Stats `
+
+<br/>
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=mec-256&show_icons=true&hide_border=true&bg_color=ffffff&title_color=111827&icon_color=374151&text_color=374151&hide=stars" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mec-256&layout=compact&hide_border=true&bg_color=ffffff&title_color=111827&text_color=374151&langs_count=6" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mec-256&show_icons=true&hide_border=false&border_color=e2e8f0&bg_color=f8fafc&title_color=0f172a&icon_color=0f172a&text_color=475569&hide=stars&ring_color=0f172a" />
+&nbsp;
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mec-256&layout=compact&hide_border=false&border_color=e2e8f0&bg_color=f8fafc&title_color=0f172a&text_color=475569&langs_count=6" />
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mec-256&hide_border=false&border=e2e8f0&background=f8fafc&ring=0f172a&fire=0f172a&currStreakLabel=0f172a&sideLabels=475569&dates=94a3b8&stroke=e2e8f0&currStreakNum=0f172a&sideNums=0f172a" height="165" />
+
 </div>
+
+<br/>
 
 ---
 
-B.Tech CSE · Mahindra University, Hyderabad · CGPA 8.0/10 · Expected 2027
+<div align="center">
+  <sub>Open to AI/ML internships and interesting collaboration — <a href="mailto:eswarchandra.016@gmail.com">reach out</a>.</sub>
+</div>
