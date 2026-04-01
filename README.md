@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=36&pause=9999&color=757575&center=true&vCenter=true&width=600&height=80&lines=M.V.M+Eswar+Chandra" alt="name" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&pause=99999&color=94A3B8&center=true&vCenter=true&width=600&height=30&lines=AI+Engineer+%E2%80%94+RAG+%2F+LLMs+%2F+Vector+Search+%2F+Full-Stack" alt="title" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=15&pause=99999&color=94A3B8&center=true&vCenter=true&width=600&height=30&lines=Aspiring+AI+Engineer+%E2%80%94+RAG+%2F+LLMs+%2F+Vector+Search+%2F+Full-Stack" alt="title" />
 
 <br/>
 
