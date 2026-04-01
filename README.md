@@ -46,7 +46,7 @@ The tools I reach for when building retrieval and generation pipelines:
 
 <br/>
 
-### InsightLayer &nbsp;—&nbsp; AI Document Q&A &nbsp; [↗ GitHub](https://github.com/mec-256) &nbsp; [↗ Live](https://github.com/mec-256)
+### InsightLayer &nbsp;—&nbsp; AI Document Q&A &nbsp; [↗ GitHub](https://github.com/mec-256/Insight_Layer) &nbsp;
 
 Full-stack RAG system for semantic search across uploaded PDFs and text. The interesting engineering was moving beyond naive cosine similarity — I implemented **hybrid search** (vector + BM25) with **cross-encoder re-ranking**, which pushed retrieval accuracy up 35%. The model layer runs Llama 3.3 70B through Groq for low-latency responses with source citations. Multi-tenant, JWT-authenticated, built to be production-ready from the start.
 
@@ -54,7 +54,7 @@ Full-stack RAG system for semantic search across uploaded PDFs and text. The int
 
 <br/>
 
-### RAG Assistant &nbsp; [↗ Live](https://kvy8ujhh46wzkqectngxpj.streamlit.app/)
+### RAG Assistant &nbsp; [↗ Github](https://github.com/mec-256/Expert_python_assistant-RAG-)
 
 An earlier, leaner RAG chatbot — this is where I worked out the chunking strategy and embedding pipeline that I later improved in InsightLayer. OpenAI API + ChromaDB. Retrieval precision up 35% after iterations on the ingestion pipeline.
 
